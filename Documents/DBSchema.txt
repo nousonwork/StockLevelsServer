@@ -1,0 +1,37 @@
+SNames:
+	- SId (BigInt)
+	- Names (Varchar 200)
+	- TypeId
+	
+	
+SType:
+	- TypeId (BigInt)
+	- TypeName: (Varchar 5) 
+			EQ , FUT  ,COMMO
+	
+	
+	
+Levels:
+	- LevelId (BigInt)
+	- SId (BigInt)
+	- TypeId (BigInt)
+	- LowerValue (Varchar)
+	- UpperValue (Varchar)
+	
+	
+EMAType:
+	- EMAId (BigInt)
+	- EMAValue (Long)
+	
+
+EMAValue:
+	- EMAValueId (BigInt)
+	- EMAId (BigInt)
+	- SId (BigInt)
+	- Value (Varchar)
+	
+	
+SData:
+	- SDataId (BigInt)
+	- SId (BigInt)
+	- CSVData (Blob)
