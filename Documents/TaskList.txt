@@ -1,10 +1,9 @@
 
 
 ###### Shankar
-# Build sql DB
 # Define REST API structure
 # Look how to call yahoo API
-# Admob integration and coding
+# Google Admob integration and coding
 # HTML UI building algo
 
 
@@ -16,5 +15,7 @@
 ###### Shrikant
 
 # Remove extra tabs from index page
+# Beautify UI in HTML 5 if needed
 # Add CSV code
 # Add algo code
+# Write CSV download algo
