@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
-  <display-name>cabserver</display-name>
+  <display-name>StockLevelsServer</display-name>
  
 <listener>
 	<listener-class>org.jboss.resteasy.plugins.server.servlet.ResteasyBootstrap</listener-class>
@@ -11,7 +11,7 @@
     <description></description>
     <display-name>StartupServlet</display-name>
     <servlet-name>StartupServlet</servlet-name>
-    <servlet-class>com.cabserver.handler.StartupServlet</servlet-class>
+    <servlet-class>com.stocklevels.handler.StartupServlet</servlet-class>
     <init-param>
 			<param-name>log4j-properties-location</param-name>
 			<param-value>WEB-INF/log4j.properties</param-value>
@@ -21,7 +21,7 @@
   
   <servlet>
 		<servlet-name>Log4JInitServlet</servlet-name>
-		<servlet-class>com.cabserver.handler.Log4JInitServlet</servlet-class>
+		<servlet-class>com.stocklevels.handler.Log4JInitServlet</servlet-class>
 		<init-param>
 			<param-name>log4j-properties-location</param-name>
 			<param-value>WEB-INF/log4j.properties</param-value>
